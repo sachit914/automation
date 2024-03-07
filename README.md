@@ -1,33 +1,33 @@
 # automation
     
     automation
-    ├── allure-ios-business
-    ├── allure-ios-consumer
+    ├── allure-ios-business   ----------->to generate testReport                    
+    ├── allure-ios-consumer   ----------->to generate testReport  
     ├── app
     │   ├── android
     │   │   ├── business
-    │   │   │   └── apk
+    │   │   │   └── consumer.apk     --------------> upload the business android apk file for test
     │   │   └── consumer
-    │   │       └── apk
+    │   │       └── business.apk     --------------> upload the consumer android apk file for test
     │   └── ios
     │       ├── business
-    │       │   └── apk
+    │       │   └── business.ipa     --------------> upload the business ios ipa file for test
     │       └── consumer
-    │           └── apk
+    │           └── consumer.ipa     --------------> upload the consumer ios ipa file for test
     ├── automationServer
     │   └── index.js
     └── test
-        ├── specsBusiness
+        ├── specsBusiness           ---------> test script for consumer
         │   ├── android
-        │   │   ├── function.js
-        │   │   └── index.js
+        │   │   ├── function.js      ---------------> test case scenario 
+        │   │   └── index.js         ---------------> main file to test scripts  here we import functions
         │   └── ios
-        │       ├── function.js
-        │       └── index.js
-        └── specsConsumer
-            ├── android
+        │       ├── function.js      
+        │       └── index.js         
+        └── specsConsumer           ---------> test script for consumer
+            ├── android    
             │   ├── function.js
-            │   └── index.js
+            │   └── index.js         
             └── ios
                 ├── function.js
-                └── index.js
+                └── index.js        
