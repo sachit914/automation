@@ -1,6 +1,6 @@
 # automation
     
-    ROOT
+    automation
     ├── allure-ios-business
     ├── allure-ios-consumer
     ├── app
