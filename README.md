@@ -1,15 +1,34 @@
 # automation
 
-<ul>
-    <li>Root
-        <ul>
-            <li>Node 1
-                <ul>
-                    <li>Node 1.1</li>
-                    <li>Node 1.2</li>
-                </ul>
-            </li>
-            <li>Node 2</li>
-        </ul>
-    </li>
-</ul>
+ROOT
+├── allure-ios-business
+├── allure-ios-consumer
+├── app
+│   ├── android
+│   │   ├── business
+│   │   │   └── apk
+│   │   └── consumer
+│   │       └── apk
+│   └── ios
+│       ├── business
+│       │   └── apk
+│       └── consumer
+│           └── apk
+├── automationServer
+│   └── index.js
+└── test
+    ├── specsBusiness
+    │   ├── android
+    │   │   ├── function.js
+    │   │   └── index.js
+    │   └── ios
+    │       ├── function.js
+    │       └── index.js
+    └── specsConsumer
+        ├── android
+        │   ├── function.js
+        │   └── index.js
+        └── ios
+            ├── function.js
+            └── index.js
+
