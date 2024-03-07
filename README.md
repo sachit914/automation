@@ -17,14 +17,14 @@
     ├── automationServer
     │   └── index.js
     └── test
-        ├── specsBusiness           ---------> test script for consumer
+        ├── specsBusiness           ---------------> test script for consumer
         │   ├── android
-        │   │   ├── function.js      ---------------> test case scenario 
-        │   │   └── index.js         ---------------> main file to test scripts  here we import functions
+        │   │   ├── function.js     ---------------> test case scenario 
+        │   │   └── index.js        ---------------> main file to test scripts  here we import functions
         │   └── ios
         │       ├── function.js      
         │       └── index.js         
-        └── specsConsumer           ---------> test script for consumer
+        └── specsConsumer           ---------------> test script for consumer
             ├── android    
             │   ├── function.js
             │   └── index.js         
